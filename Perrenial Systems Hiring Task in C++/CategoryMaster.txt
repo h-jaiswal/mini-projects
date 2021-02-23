@@ -1,0 +1,5 @@
+liquid
+liquid
+solid
+solid
+gas
