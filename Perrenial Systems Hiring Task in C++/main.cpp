@@ -25,8 +25,6 @@ int main()
     file.first.open(itemFileName.c_str()); 
     file.second.open(categoryFileName.c_str()); 
     
-    cout << "1" << endl;
-
     while ( getline(file.first, item) && getline(file.second, category) ) 
     { 
         if( data.find(category) == data.end() )
@@ -41,13 +39,8 @@ int main()
         }
     }
 
-    cout << "2" << endl;
-
     file.first.close();
     file.second.close();
-
-    cout << "3" << endl;
-
 
     cout << "Available Categories: \n";
     
